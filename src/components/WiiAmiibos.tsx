@@ -12,11 +12,13 @@ const SingleAmiiboDiv=styled.div`
     flex-direction: column;
     justify-content: center;
     max-width: 15%;
-    padding: 2%;
-    margin: 2%;
+    padding: 3%;
+    margin: 1%;
     font: calc(2px + 1vw) Copperplate, fantasy;
     text-align: center;
+    border: 1px inset indianred;
 `;
+
 
 export default function WiiAmiibos(props: {data:Amiibo[]}){
     return(
