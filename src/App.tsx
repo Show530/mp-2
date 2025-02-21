@@ -16,7 +16,7 @@ export default function App() {
     // useEffect hook for error stuff and re-loading
     useEffect(() => {
         async function fetchData(): Promise<void> {
-            const rawData = await fetch("https://www.amiiboapi.com/api/amiibo/");
+            const rawData = await fetch("https://www.amiiboapi.com/api/amiibo/?type=Card");
             const {amiibo} : {amiibo: Amiibo[]} = await rawData.json();
             setData(amiibo);
         }
