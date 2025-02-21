@@ -5,8 +5,8 @@ import {Amiibo} from "./interfaces/Amiibos.ts";
 
 const ParentDiv=styled.div`
     width: 80vw;
-    justify-content: center;
-    border: 2px darkred solid;
+    margin: auto;
+    border: 2px darkred inset;
 `;
 
 export default function App() {

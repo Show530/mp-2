@@ -4,7 +4,6 @@ import {Amiibo} from "../interfaces/Amiibos.ts";
 const AllAmiibosDiv=styled.div`
     display: flex;
     flex-flow: row wrap;
-    justify-content: space-evenly;
 `;
 
 const SingleAmiiboDiv=styled.div`
@@ -13,10 +12,9 @@ const SingleAmiiboDiv=styled.div`
     justify-content: center;
     max-width: 15%;
     padding: 2%;
-    margin: 2%;
+    margin: 2% 1%;
     font: calc(2px + 1vw) Copperplate, fantasy;
     text-align: center;
-    
 `;
 
 export default function WiiAmiibos(props: {data:Amiibo[]}){
