@@ -5,17 +5,16 @@ const AllAmiibosDiv=styled.div`
     display: flex;
     flex-flow: row wrap;
     justify-content: space-evenly;
-
 `;
 
 const SingleAmiiboDiv=styled.div`
     display: flex;
     flex-direction: column;
     justify-content: center;
-    max-width: 25%;
+    max-width: 15%;
     padding: 2%;
-    margin: 1%;
-    font: small-caps  calc(2px + 1vw) Copperplate, fantasy;
+    margin: 2%;
+    font: calc(2px + 1vw) Copperplate, fantasy;
     text-align: center;
     
 `;
